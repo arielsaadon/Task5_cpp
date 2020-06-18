@@ -2,9 +2,9 @@
 
 namespace itertools{
     class range{
-        int start,end;
+        int Start,End;
         public:
-            range(int a, int b): start(a), end(b){}
+            range(int a, int b): Start(a), End(b){}
         int* begin(){
             return nullptr;
         }
